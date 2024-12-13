@@ -1,0 +1,506 @@
+{
+  "sidebar":{
+    "home": "Home",
+    "financial": "Financial Reports",
+    "users": "Users",
+    "contact": "Contact Us",
+    "complaint": "Complaints / Suggestions",
+    "permissions": "Permissions",
+    "about": "About the Platform",
+    "auctionTerms": "Auction Terms",
+    "sealedBidAuctionTerms": "Sealed Bid Auction Terms",
+    "faqs": "FAQs",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "logout": "Logout"
+  },
+  "pagesTitle" : {
+    "addUser" : "Add User",
+    "editUser" : "Edit User",
+    "contact" : "Contact Us",
+    "addPermission" : "Add Permission",
+    "editPermission" : "Edit Permission"
+  },
+  "nav": {
+    "lang": "English"
+  },
+  "addUserForm" : {
+    "userName" : "User Name",
+    "email" : "E-mail",
+    "phone" : "Phone Number",
+    "permissions" : "Select user permissions",
+    "permissionsPlc" : "Select the permission of the user",
+    "password" : "Password",
+    "confirmPassword" : "Confirm Password",
+    "message" : "Message Title",
+    "messageContent" : "Message Content",
+    "messageContentPlc" : "Enter Message Content",
+    "contactTitle" : "Contact Us With",
+    "complaintTitle" : "Complaint Title",
+    "complaintContent" : "Complaint Content",
+    "complaintContentPlc" : "Write Complaint Content",
+    "complaintImg" : "Complaint Image",
+    "uploadComplaintImg" : "Upload Image",
+    "permissionName" : "Permission Name",
+    "permissionProp" : "Permission properties",
+    "permissionPropPlc" : "Select the properties of the permission"
+  },
+  "formBtns": {
+    "add" : "Add",
+    "adding" : "Adding",
+    "send": "Send",
+    "sendLoading": "Sending",
+    "clear": "Clear All",
+    "follow": "Follow",
+    "login": "Login",
+    "create": "Create Account",
+    "agree": "Agree",
+    "save": "Save",
+    "edit": "Save Edits",
+    "editBtn": "Edit",
+    "saveLoading": "Saving",
+    "confirm": "Confirm",
+    "confirmProfile": "Confirm identity",
+    "confirming": "Confirming",
+    "delteLoading": "Deleting",
+    "changePass": "change Password",
+    "changePhone": "change Phone",
+    "logout": "Logout",
+    "delete": "Delete Account",
+    "editProfile": " Edit Profile",
+    "change": "Change",
+    "activeCode": "Account activation",
+    "receiveCode": "Resend The Code",
+    "addComplaints": "Add complaintss",
+    "commission": "Commission payment"
+  },
+  "moreBtn": {
+    "more": "Show More",
+    "all": "Show All",
+    "detailes": "View details"
+  },
+  "modals": {
+    "deleteUser": {
+      "header": "Delete User",
+      "text": "Are you sure you confirmed the user deletion?",
+      "returnBtn": "Back off",
+      "deleteBtn": "Confirm deletion"
+    },
+    "deletePermission": {
+      "header": "Delete Permissiob",
+      "text": "Are you sure you confirmed the permission deletion?",
+      "returnBtn": "Back off",
+      "deleteBtn": "Confirm deletion"
+    },
+    "search": {
+      "header": "Search",
+      "placeholder": "Search for what you want.."
+    },
+    "reason": {
+      "header": "What is the reason for canceling the order?",
+      "confirmBtn": "Confirm",
+      "btn": "Back off"
+    },
+    "rate": {
+      "header": "Rate the store",
+      "placeholder": "Please enter your rating on the store",
+      "btn": "Send Rate"
+    },
+    "deleteAds": {
+      "header": "Delete Advert",
+      "text": "Do you want to delete the advert?",
+      "returnBtn": "Cancel",
+      "btn": "Yes, Delete!"
+    },
+    "address": {
+      "header": "Delivery Address",
+      "btn": "Determine location"
+    },
+    "return": {
+      "header": "Your return request has been sent successfully",
+      "desc": "You can follow the order or go to the main page",
+      "btn": " Home",
+      "Continue": " Continue"
+    },
+    "new_address": "Add new address",
+    "add_new_address": "Add new address",
+    "confirm_add": "Confirm address",
+    "address_name": "Address name",
+    "enter_address_name": "Enter address name",
+    "done": {
+      "header": "Balance withdrawal request",
+      "text": "Your Message Has Been Successfully Sent",
+      "cancelDone": "Order canceled successfully",
+      "returnDone": "Your return request has been sent successfully",
+      "rateDone": "Your rating has been successfully sent",
+      "addDone": "The product has been successfully added to the cart",
+      "changePhone": "Phone changed successfully",
+      "changePass": "The password has been changed successfully",
+      "editProfile": "Profile updated successfully",
+      "deleteProfile": "Account deleted successfully",
+      "orderDone": "The Order was successfully completed",
+      "subscribe": "Subscribed successfully",
+      "reNew": "Renewed successfully",
+      "btn": "Home Page",
+      "orderBtn": "Complete the order",
+      "followBtn": "follow order",
+      "scrollBtn": "Continue browsing"
+    },
+    "deleteAccount": {
+      "header": "Delete Account",
+      "text": "Are you sure you confirmed the account deletion?",
+      "returnBtn": "Back off",
+      "deleteBtn": "Confirm deletion"
+    },
+    "bankAccount": {
+      "header": "Bank account data",
+      "text": "Please fill in the following data to withdraw the balance",
+      "form": {
+        "name": "Account Holder's Name",
+        "bankName": "Bank name",
+        "accountNum": "Bank account number",
+        "ibanNum": "Iban Number",
+        "amount": "Amount"
+      },
+      "btn": "send request"
+    },
+    "chargeModal": {
+      "header": "Recharge balance",
+      "text": "Please enter the amount to top up the balance"
+    },
+    "rateModal": {
+      "header": "Add a Rating",
+      "text": "Comment Content",
+      "placeholder": "Enter your comment here"
+    },
+    "addReport": {
+      "header": "Add a Report",
+      "text": "Report Content",
+      "placeholder": "Enter your report here"
+    },
+    "confirmAds": {
+      "text": "Advertisement submitted successfully",
+      "edit": "Advertisement updated successfully",
+      "btnHome": "Go to Home",
+      "btnHome2": "Go to Home",
+      "goAds": "Highlight the Ads"
+    }
+  },
+  "sectionDesc": {
+    "codeForm": "Please enter the activation code sent to you via mobile phone",
+    "restorePassword": "Sending an activation code via message to your mobile number",
+    "changePhone": "Enter your password to change the mobile number",
+    "newPhone": "Enter new mobile number",
+    "complaints": "If you have any complaint, do not hesitate to write to us"
+  },
+  "contactForm": {
+    "name": "Name",
+    "phone": "Phone",
+    "subject": "Subject",
+    "title": "Message Title",
+    "message": "Message"
+  },
+  "codeForm": {
+    "text": "Didn't receive the code yet ?"
+  },
+  "loginForm": {
+    "login": "Login",
+    "phone": {
+      "text": "Phone Number",
+      "placeholder": "Enter Phone Number"
+    },
+    "name": {
+      "text": "Name",
+      "placeholder": "Enter User Name"
+    },
+    "userName": {
+      "text": "User Name",
+      "placeholder": "Enter User Name"
+    },
+    "email": {
+      "text": "Email",
+      "placeholder": "Enter Email"
+    },
+    "password": {
+      "text": "Password",
+      "placeholder": "Enter Password"
+    },
+    "forgetPassword": "Forgot your password ?",
+    "haveAccount": "Or Join Us",
+    "createAccount": "Create Account",
+    "signAddress": "If you have an account, log in using your mobile number.",
+    "customers": "Dear Customers",
+    "confirm": "Confirm",
+    "confirm_data": "Confirm data",
+    "complete_info": "Complete information",
+    "save_changes": "Save changes",
+    "changePhone": "Change Phone",
+    "otp": "Activation code",
+    "resend": " Resend code",
+    "otp_text": "Please enter the activation code sent to you via mobile phone",
+    "newPhone": "New phone number",
+    "back": "Back",
+    "option": "Optional",
+    "otp_text_new": "Please enter the activation code sent to your new mobile number",
+    "delete_account_warning": "Delete Account",
+    "delete_account_caption": "Are you sure you want to delete your account ?"
+  },
+  "restorePasswordForm": {
+    "phone": {
+      "text": "Phone Number",
+      "placeholder": "Enter Phone Number"
+    },
+    "code": {
+      "text": "Code Number"
+    },
+    "newPassword": {
+      "text": "New Password",
+      "placeholder": "Enter New Password"
+    },
+    "confirmNewPassword": {
+      "text": "Confirm New Password",
+      "placeholder": "Enter New Password"
+    }
+  },
+  "createAccountForm": {
+    "photo": "Personal photo",
+    "name": {
+      "text": "User Name",
+      "placeholder": "Enter User Name"
+    },
+    "phone": {
+      "text": "Phone Number",
+      "placeholder": "Enter Phone Number"
+    },
+    "email": {
+      "text": "Email",
+      "placeholder": "Enter Email"
+    },
+    "bankName": {
+      "text": "Bank Name",
+      "placeholder": "Enter Bank Name"
+    },
+    "holderName": {
+      "text": "Account Holder's Name",
+      "placeholder": "Enter Account Holder's Name"
+    },
+    "bankeAccountNumber": {
+      "text": "Bank Account Number",
+      "placeholder": "Enter Bank Account Number"
+    },
+    "iban": {
+      "text": "Iban Number",
+      "placeholder": "Enter Iban Number"
+    },
+    "country": {
+      "placeholder": "Choose Country"
+    },
+    "city": {
+      "placeholder": "Choose City"
+    },
+    "password": {
+      "text": "Password",
+      "placeholder": "Enter password"
+    },
+    "confirmPassword": {
+      "placeholder": "Confirm Password"
+    },
+    "agree": "By registering you agree to",
+    "agree2": "Approval To",
+    "terms": "Terms and Conditions",
+    "haveAccount": "Have an account ? ",
+    "login": "Login",
+    "changePhone": "Change Phone"
+  },
+  
+  "pagesTitle2": {
+    "home": "Home",
+    "orders": "My Orders",
+    "allCategories": "Categories",
+    "products": "Products",
+    "about": "Who Us",
+    "contact": "Contact Us",
+    "chats": "Chats",
+    "financial": "Financial Accounts",
+    "privacy": "Privacy Policy",
+    "faqs": "Faqs",
+    "newlyAdded": "Newly Added",
+    "mostSelling": "Most Selling",
+    "terms": "Terms and Conditions",
+    "discount": "Discount system",
+    "policy": "Service usage policy",
+    "suggestions": "Complaints and Suggestions",
+    "addComplaints": "Add complaintss",
+    "complaintDetailes": "Complaint details",
+    "favorites": "Favorites",
+    "wallet": "Wallet",
+    "points": "Rewards points",
+    "done": "Your Request Has Been Sent",
+    "notifications": "Notifications",
+    "cart": "Cart",
+    "completeOrder": "Complete the order",
+    "search": "search results",
+    "offers": "Offers",
+    "productDetailes": "product Detailes",
+    "userAccount": "Edit Account",
+    "login": "Login",
+    "createAccount": "Create Account",
+    "changePhone": "Change Phone",
+    "code": "Verification Code",
+    "forgetPass": "Restore Password",
+    "purchaseOrders": "Purchase Orders",
+    "returnOrders": "Returns Orders",
+    "orderDetailes": "Order Detailes",
+    "retUrnOrderDetailes": "retrieval Order Detailes",
+    "returnOrder": "Return Order",
+    "rateOrder": "Order rating",
+    "complete_order": "Order completion",
+    "change_location": "Change Location"
+  },
+  "noData": {
+    "banners": " Not Found Banners",
+    "services": "Not Found Services",
+    "products": "Not Found Products",
+    "advantages": "Not Found advantages",
+    "packages": "Not Found Packages",
+    "offers": "Not Found offers",
+    "comments": "Not Found Rates",
+    "search": "Not Found search results",
+    "users": "Not Found Users",
+    "complaint": "Not Found complaint",
+    "categories": "Not Found categories",
+    "subCategories": "Not Found subcategories of this category",
+    "categoryProducts": "Not Found products in this sub category",
+    "faqs": "Not Found Faqs",
+    "terms": "Not Found Trems",
+    "notifications": "Not Found Notifications",
+    "newOrders": "Not Found New Orders",
+    "waitingOrders": "Not Found Waiting Orders",
+    "onWayOrders": "No orders are being delivered",
+    "currentOrders": "Not Found Current Orders",
+    "finishedOrders": "Not Found Finished Orders",
+    "cancelledOrders": "Not Found cancelled Orders",
+    "returnedOrders": "Not Found Returned Orders",
+    "scheduledOrders": "Not Found Scheduled Orders",
+    "imgs": "Not Found Images",
+    "cart": "Cart is empty",
+    "orderProduct": "The products you requested are no longer available",
+    "productRate": "No reviews for this product",
+    "emptyCart": "Cart is empty"
+  },
+  "validate_msg": {
+    "phone": "Mobile number is required",
+    "phone_wrong": "Mobile number incorrect",
+    "user_name": "Name is required",
+    "name": "Name is required",
+    "email": "Email required",
+    "email_wrong": "Email is incorrect",
+    "text": "Message required",
+    "uncomplete": "Please complete the fields",
+    "select_city": "City is required",
+    "select_category": "Category is required",
+    "select_subcategory": "Sub category is required",
+    "select_brand": "Brand is required",
+    "select_product_type": "Product type is required",
+    "select_product_image": "Product image is required",
+    "select_color_image": "Color image is required",
+    "name_ar": "Name in arabic is required",
+    "name_en": "Name in english is required",
+    "price": "Price is required",
+    "description_ar": "Description in arabic is required",
+    "description_en": "Description in english is required",
+    "logo": "Logo required",
+    "files": "Files Required",
+    "account_number": "Bank account number is required",
+    "password": "Password is required",
+    "password_confirmation": "Please confirm your password",
+    "password_wrong": "Password less than 6 characters",
+    "password_confirmation_wrong": "Passwords not match",
+    "type_feedback": "Service provider type required",
+    "service_feedback": "Service required",
+    "ProviderType": "Choose provider type",
+    "services": "Choose service",
+    "image": "Image is required",
+    "description": "Description is required",
+    "time": "Time is required",
+    "date": "Date is required",
+    "images": "Images required",
+    "address": "Address required",
+    "select_messag_type": "Please select message type",
+    "emptyFilterMessage": "No results found",
+    "complaint": "Complaint details required",
+    "is_terms": "Please accept the terms and conditions",
+    "subject": "Subject is required",
+    "message": "Message is required",
+    "old_password": "Old password is required",
+    "coupon_required": "Please enter coupon code",
+    "login_required": "Please login first",
+    "select_location_required": "Please select location",
+    "banke_account_name": "bank account name is required",
+    "banke_account_number": "bank account number is required",
+    "iban": "iban number is required",
+    "bank_name": "bank name is required",
+    "update_profile_success": "Update profile success",
+    "name_address": "Address name is required"
+  },
+  "main":{
+    "req": "Required",
+    "nodata": "No data available yet",
+    "sendMessageplaceholder": "Write your message here",
+    "phoneOrMail": "Email or Mobile Number",
+    "reports": "Discussion Reports",
+    "newReports": "New Settlement Requests",
+    "oldReports": "Finished Settlement Requests",
+    "reqestReport": "Settlement Request",
+    "doneSettlement": "Settlement request sent successfully",
+    "followSettlement": "Follow Settlement Requests",
+    "noAuctions": "No auctions available yet",
+    "newSettlements": "New Settlement Requests",
+    "finishedSettlements": "Finished Settlement Requests",
+    "settleDetails": "Request Details",
+    "settleImg": "Transfer Receipt Image",
+    "refuseResson": "Reason for Rejection",
+    "bidDetails": "Bid Details",
+    "chat": "Chat",
+    "showChat": "Show Chat",
+    "currentAuction": "Ongoing Auctions",
+    "finishedAuction": "Finished Auctions",
+    "cancelledAuction": "Cancelled Auctions",
+    "closedAuction": "Closed Auctions",
+    "currentAuction2": "Ongoing Bid",
+    "finishedAuction2": "Finished Bid",
+    "cancelledAuction2": "Cancelled Bid",
+    "closedAuction2": "Closed Bid",
+    "deleteNotifications": "Delete All Notifications",
+    "notifications": "Notifications",
+    "noNotifications": "No notifications available yet",
+    "sureDeleteNots": "Are you sure you want to delete notifications?",
+    "agree": "Yes, Delete",
+    "back": "Cancel",
+    "aucEnd": "Time remaining until auction ends",
+    "day": "d",
+    "hour": "h",
+    "min": "m",
+    "noOwnAuctions": "You have no auctions yet",
+    "terms": "Guidelines and Instructions",
+    "addedDate": "Date Added",
+    "permissionOptins": "Permission Properties",
+    "termsBook": "Terms Book",
+    "commission": "Commission Value",
+    "acceptedOffer": "Accepted Offer",
+    "currency": "SAR",
+    "notes": "Notes",
+    "attachments": "Attachments",
+    "offers": "Price Offers",
+    "aucIsCurrent": "The bid is still ongoing",
+    "aucIsFinished": "Congratulations! The bid has ended",
+    "reviewAuc": "You can review price offers after the auction period ends to choose the appropriate offer",
+    "showOffers": "Reveal Offers",
+    "acceptOffer": "Accept Offer",
+    "offersPin": "Offers Reveal Code",
+    "enterPin": "Please enter the code sent to you by the administration to reveal the offers",
+    "openOfferPin": "Offer Opening Code",
+    "confirm": "Confirm",
+    "enterCodePin": "Enter the code"
+}
+}

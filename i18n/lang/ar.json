@@ -1,0 +1,506 @@
+{
+  "sidebar": {
+    "home": "الرئيسية",
+    "financial": "التقارير المالية",
+    "users" : "المستخدمين",
+    "contact": "تواصل معنا",
+    "complaint": "شكاوى / مقترحات",
+    "permissions" : "الصلاحيات",
+    "about" : "عن المنصة",
+    "auctionTerms":"شروط المزادات",
+    "sealedBidAuctionTerms" : "شروط مزادات الظرف المغلق",
+    "faqs" : "الأسئلة الشائعة",
+    "terms" :"الشروط والأحكام",
+    "privacy" :"سياسة الخصوصية",
+    "logout": "تسجيل الخروج"
+  },
+  "pagesTitle" : {
+    "addUser" : "إضافة مستخدم",
+    "editUser" : "تعديل المستخدم",
+    "contact" :"تواصل معنا",
+    "addPermission" : "إضافة صلاحية",
+    "editPermission" : "تعديل صلاحية"
+  },
+  "nav": {
+    "lang": "العربية"
+  },
+  "addUserForm" : {
+    "userName" : "إسم المستخدم",
+    "email" : "البريد الإلكتروني",
+    "phone" : "رقم الجوال",
+    "permissions" : "الصلاحيات",
+    "permissionsPlc" : "إختر الصلاحيات الخاصة بالمستخدم",
+    "password" : "كلمة المرور",
+    "confirmPassword" : "تأكيد كلمة المرور",
+    "message" : "عنوان الرسالة",
+    "messageContent" : "نص الرسالة",
+    "messageContentPlc" : "أدخل نص الرسالة",
+    "contactTitle" : "تواصل معنا عبر",
+    "complaintTitle" : "عنوان الشكوى",
+    "complaintContent" : "نص الشكوى / المقترح",
+    "complaintContentPlc" : "أدخل نص الشكوى / المقترح",
+    "complaintImg" : "صورة الشكوى",
+    "uploadComplaintImg" : "تحميل صورة",
+    "permissionName" : "إسم الصلاحية",
+    "permissionProp" : "خصائص الصلاحية",
+    "permissionPropPlc" : "إختر الخصائص الخاصة بالصلاحية"
+  },
+  "formBtns": {
+    "add" : "إضافة",
+    "adding" : "جارى الإضافة",
+    "send": "إرسال",
+    "sendLoading": "جارى الارسال",
+    "clear": "حذف الكل",
+    "follow": "متابعة",
+    "login": "تسجيل الدخول",
+    "create": "انشاء حساب",
+    "agree": "موافقة",
+    "save": "حفظ",
+    "edit": "حفظ التعديلات",
+    "editBtn": "تعديل",
+    "saveLoading": "جارى الحفظ",
+    "confirm": "تأكيد",
+    "confirmProfile": "تأكيد الهوية",
+    "confirming": "جارى التأكيد",
+    "delteLoading": "جارى الحذف",
+    "changePass": "تغيير كلمة المرور",
+    "changePhone": "تغيير رقم الجوال",
+    "logout": "تسجيل خروج",
+    "delete": "حذف الحساب",
+    "change": "تغيير",
+    "editProfile": "تعديل الملف الشخصي",
+    "activeCode": "تفعيل الحساب",
+    "receiveCode": "أعد إرسال الكود",
+    "addComplaints": "أضافة شكاوى او مقترح",
+    "commission": "دفع العمولة"
+  },
+  "moreBtn": {
+    "more": "عرض المزيد",
+    "all": "عرض الكل",
+    "detailes": "عرض التفاصيل"
+  },
+  "modals": {
+    "deleteUser": {
+      "header": "حذف المستخدم",
+      "text": "هل حقا تريد حذف المستخدم ؟",
+      "returnBtn": "تراجع",
+      "deleteBtn": "حذف"
+    },
+    "deletePermission": {
+      "header": "حذف الصلاحية",
+      "text": "هل حقا تريد حذف الصلاحية ؟",
+      "returnBtn": "تراجع",
+      "deleteBtn": "حذف"
+    },
+    "search": {
+      "header": "بحث",
+      "placeholder": "ابحث عما تريد.."
+    },
+    "reason": {
+      "header": "سبب إلغاء الطلب ؟",
+      "confirmBtn": "نعم, الغاء",
+      "btn": "تراجع"
+    },
+    "rate": {
+      "header": "قم بتقييم المتجر",
+      "placeholder": "برجاء ادخال تقييمك علي المتجر",
+      "btn": "ارسل التقييم"
+    },
+    "deleteAds": {
+      "header": "حذف الاعلان",
+      "text": "هل تريد حذف الاعلان ؟",
+      "returnBtn": "التراجع",
+      "btn": "نعم , حذف!"
+    },
+    "address": {
+      "header": "عنوان التوصيل",
+      "btn": "تحديد الموقع"
+    },
+    "return": {
+      "header": "تم ارسال طلب الارجاع بنجاح",
+      "desc": "يمكنك متابعة الطلب او التوجه للرئيسية",
+      "btn": "الرئيسية",
+      "Continue": "متابعة الطلب"
+    },
+    "new_address": "اضافة عنوان اخر",
+    "add_new_address": "اضافة عنوان جديد",
+    "confirm_add": "تأكيد الاضافة",
+    "address_name": "اسم العنوان",
+    "enter_address_name": "ادخل اسم العنوان",
+    "done": {
+      "header": "طلب سحب رصيد",
+      "text": "تم ارسال رسالتك بنجاح",
+      "cancelDone": "تم إلغاء الطلب بنجاح",
+      "returnDone": "تم ارسال طلب ارجاع بنجاح",
+      "rateDone": "تم ارسال تقييمك بنجاح",
+      "addDone": "تم إضافة المنتج للسلة بنجاح",
+      "changePhone": "تم تغيير رقم الجوال بنجاح",
+      "changePass": "تم تغيير كلمة المرور بنجاح",
+      "editProfile": "تم تعديل الملف الشخصي بنجاح",
+      "deleteProfile": "تم حذف الحساب بنجاح",
+      "orderDone": "تم اتمام الطلب بنجاح",
+      "subscribe": "تم الاشتراك بنجاح",
+      "reNew": "تم التجديد بنجاح",
+      "btn": "العودة للرئيسية",
+      "orderBtn": "استكمال الطلب",
+      "followBtn": "متابعه الطلب",
+      "scrollBtn": "استكمال التصفح"
+    },
+    "deleteAccount": {
+      "header": "حذف الحساب",
+      "text": "هل تريد حذف هذا الحساب ؟",
+      "returnBtn": "التراجع",
+      "deleteBtn": "نعم , حذف!"
+    },
+    "bankAccount": {
+      "header": "بيانات الحساب البنكي",
+      "text": "برجاء تعبئة البيانات التالية لسحب الرصيد",
+      "form": {
+        "name": "إسم صاحب الحساب",
+        "bankName": "إسم البنك",
+        "accountNum": "رقم الحساب البنكي",
+        "ibanNum": "رقم الايبان",
+        "amount": "المبلغ"
+      },
+      "btn": "ارسل الطلب"
+    },
+    "chargeModal": {
+      "header": "شحن رصيد",
+      "text": "برجاء أدخال المبلغ لشحن الرصيد"
+    },
+    "rateModal": {
+      "header": "أضف تقييم",
+      "text": "محتوي التعليق",
+      "placeholder": "هنا نص التعليق"
+    },
+    "addReport": {
+      "header": "أضف بلاغ",
+      "text": "محتوي البلاغ",
+      "placeholder": "هنا نص البلاغ"
+    },
+    "confirmAds":{
+      "text":"تم ارسال الاعلان بنجاح",
+      "edit":"تم تعديل الاعلان بنجاح",
+      "btnHome":"تخطي والتوجه للرئيسية",
+      "btnHome2":"التوجه للرئيسية",
+      "goAds":"تمييز الإعلان"
+    }
+  },
+  "sectionDesc": {
+    "codeForm": "برجاء ادخال كود التفعيل المرسل إليك عبر الجوال",
+    "restorePassword": "لارسال كود تفعيل عبر رساله علي رقم الجوال",
+    "changePhone": "قم بادخال كلمة المرور الخاص بك لتغيير رقم الجوال",
+    "newPhone": "قم بادخال رقم جديد لتغيير رقم الجوال",
+    "complaints": "اذا كان لديك أي شكوي او المقترح لا تتردد في مراسلتا"
+  },
+  "contactForm": {
+    "name": "الأسم",
+    "phone": "رقم الجوال",
+    "subject": "الموضوع",
+    "title": "عنوان الرسالة",
+    "message": "الرسالة"
+  },
+  "codeForm": {
+    "text": "لم تستلم الكود بعد ؟"
+  },
+  "loginForm": {
+    "login": "تسجيل دخول",
+    "phone": {
+      "text": "رقم الجوال",
+      "placeholder": "من فضلك أدخل رقم الجوال"
+    },
+    "userName": {
+      "text": "اسم المستخدم",
+      "placeholder": "من فضلك أدخل اسم المستخدم"
+    },
+    "email": {
+      "text": "البريد الالكتروني",
+      "placeholder": "من فضلك أدخل البريد الإلكترونى"
+    },
+    "password": {
+      "text": "كلمة المرور",
+      "placeholder": "أدخل كلمة المرور"
+    },
+    "forgetPassword": "هل نسيت كلمة المرور ؟",
+    "haveAccount": "او انضم الينا",
+    "createAccount": "قم بإنشاء حساب",
+    "signAddress": "إذا كان لديك حساب ، قم بتسجيل الدخول باستخدام رقم جوالك",
+    "customers": "عملائنا الكرام",
+    "confirm": "تاكيد",
+    "confirm_data": "تأكيد البيانات",
+    "complete_info": "إستكمال البيانات",
+    "save_changes": "حفظ التغييرات",
+    "changePhone": "تغيير الجوال",
+    "otp": "كود التفعيل",
+    "resend": "إعادة ارسال الرمز",
+    "otp_text": "تم ارسال كود التفعيل الى رقم الجوال الحالي",
+    "newPhone": "رقم الجوال الجديد",
+    "back": "رجوع",
+    "option": "اختياري",
+    "otp_text_new": "تم ارسال كود التفعيل الى رقم الجوال الجديد",
+    "delete_account_warning": "تأكيد حذف الحساب",
+    "delete_account_caption": "هل انت متأكد انك تريد حذف حسابك ؟"
+  },
+  "restorePasswordForm": {
+    "phone": {
+      "text": "رقم الجوال",
+      "placeholder": "أدخل رقم الجوال"
+    },
+    "code": {
+      "placeholder": "الرجاء ادخال كود التحقق للدخوا الي الحساب",
+      "text": "الرجاء ادخال كود التحقق"
+    },
+    "newPassword": {
+      "text": "كلمة المرور الجديدة",
+      "placeholder": "ادخل كلمة المرور الجديدة"
+    },
+    "confirmNewPassword": {
+      "text": "تأكيد كلمة المرور",
+      "placeholder": "ادخل كلمة المرور الجديدة"
+    }
+  },
+  "createAccountForm": {
+    "photo": "الصورة الشخصية",
+    "name": {
+      "text": "إسم المستخدم",
+      "placeholder": "إسم المستخدم"
+    },
+    "phone": {
+      "text": "رقم الجوال",
+      "placeholder": "رقم الجوال"
+    },
+    "email": {
+      "text": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "bankName": {
+      "text": "اسم البنك",
+      "placeholder": "اسم البنك"
+    },
+    "holderName": {
+      "text": "اسم صاحب الحساب",
+      "placeholder": "ادخل اسم صاحب الحساب"
+    },
+    "bankeAccountNumber": {
+      "text": "رقم الحساب",
+      "placeholder": "ادخل رقم الحساب"
+    },
+    "iban": {
+      "text": "رقم الايبان",
+      "placeholder": "ادخل رقم الايبان"
+    },
+    "country": {
+      "placeholder": "الدولة"
+    },
+    "city": {
+      "placeholder": "المدينة"
+    },
+    "password": {
+      "text": "كلمة المرور",
+      "placeholder": "كلمة المرور"
+    },
+    "confirmPassword": {
+      "text": "تأكيد كلمة المرور",
+      "placeholder": "تأكيد كلمة المرور"
+    },
+    "agree": "بالتسجيل فانت توافق علي",
+    "agree2": "الموافقة علي",
+    "terms": "الشروط والأحكام",
+    "haveAccount": "لديك حساب الفعل ؟",
+    "login": "تسجيل الدخول",
+    "changePhone": "تغيير رقم الجوال"
+  },
+  
+  "pagesTitle2": {
+    "home": "الرئيسية",
+    "orders": "طلباتي",
+    "allCategories": "الأقسام",
+    "products": "منتجاتنا",
+    "chats": "المحادثات",
+    "about": "من نحن",
+    "contact": "تواصل معنا",
+    "financial": "الحسابات المالية",
+    "privacy": "سياسة الخصوصية",
+    "faqs": "الأسئلة الشائعة",
+    "newlyAdded": "المضاف حديثا",
+    "mostSelling": "الأكثر مبيعا",
+    "terms": "الشروط والاحكام",
+    "discount": "نظام الخصم",
+    "policy": "سياسية استخدام الخدمة",
+    "suggestions": "الشكاوى والمقترحات",
+    "addComplaints": "أضافة شكاوى او مقترح",
+    "complaintDetailes": "تفاصيل الشكوى",
+    "wallet": "المحفظة",
+    "points": "نقاط المكافئات",
+    "favorites": "المفضلة",
+    "done": "تم ارسال طلبك وسيتم مراجعتة من قبل الادارة",
+    "notifications": "الاشعارات",
+    "cart": "السلة",
+    "completeOrder": "اتمام الطلب",
+    "search": "نتائج البحث",
+    "offers": "العروض",
+    "productDetailes": "تفاصيل المنتج",
+    "userAccount": "تعديل بيانات حسابي",
+    "changePhone": "تغيير رقم الجوال",
+    "login": "تسجيل دخول",
+    "createAccount": "تسجيل جديد",
+    "code": "كود التحقق من رقمك",
+    "forgetPass": "استعادة كلمة المرور",
+    "purchaseOrders": "طلبات الشراء",
+    "returnOrders": "طلبات الأرجاع",
+    "orderDetailes": "تفاصيل الطلب",
+    "retUrnOrderDetailes": "تفاصيل طلب الأرجاع",
+    "returnOrder": "عمل طلب الأرجاع",
+    "rateOrder": "تقييم الطلب",
+    "complete_order": "استكمال الطلب",
+    "change_location": "تغيير العنوان"
+  },
+  "noData": {
+    "banners": "لا يوجد بنرات اعلانية",
+    "services": "لا يوجد خدمات حاليا",
+    "products": "لا يوجد منتجات حاليا",
+    "advantages": "لا يوجد مزايا حاليا",
+    "offers": "لا يوجد عروض حاليا",
+    "comments": "لا يوجد اراء حاليا",
+    "users": "لا يوجد أشخاص حاليا",
+    "search": "لا يوجد نتائج للبحث",
+    "complaint": "لا يوجد شكاوى أو مقترحات",
+    "categories": "لا يوجد أقسام حاليا",
+    "subCategories": "لا يوجد حاليا أقسام فرعيه لهذا القسم",
+    "categoryProducts": "لا يوجد حاليا منتجات لهذا القسم الفرعي",
+    "faqs": "لا يوجد أسئلة متكررة حاليا",
+    "terms": "لا يوجد الشروط والأحكام حاليا",
+    "notifications": "لا يوجد اشعارات حاليا",
+    "packages": "لا يوجد باقات حاليا",
+    "newOrders": "لا يوجد طلبات جديدة",
+    "waitingOrders": "لا يوجد طلبات قيد الانتظار",
+    "onWayOrders": "لا يوجد طلبات جارى التوصيل",
+    "currentOrders": "لا يوجد طلبات حالية",
+    "finishedOrders": "لا يوجد طلبات منتهية",
+    "cancelledOrders": "لا يوجد طلبات ملغيه",
+    "returnedOrders": "لا يوجد طلبات مرتجعة",
+    "scheduledOrders": "لا يوجد طلبات مجدولة",
+    "imgs": "لا يوجد صور حاليا",
+    "cart": "السلة فارغة",
+    "orderProduct": "المنتجات المطلوبة لم تعد متوفره",
+    "productRate": "لا يوجد تقييمات لهذا المنتج",
+    "emptyCart": "السلة فارغة"
+  },
+  "validate_msg": {
+    "phone": "رقم الجوال مطلوب",
+    "phone_wrong": "رقم الجوال غير صحيح",
+    "user_name": "الإسم مطلوب",
+    "name": "الإسم مطلوب",
+    "email": "البريد الإلكتروني مطلوب",
+    "email_wrong": "البريد الإلكتروني غير صحيح",
+    "text": "الرسالة مطلوبه",
+    "uncomplete": "من فضلك اكمل الحقول",
+    "select_city": "اختر المدينة",
+    "select_category": "اختر القسم",
+    "select_subcategory": "اختر تصنيف فرعي",
+    "select_brand": "اختر الماركة",
+    "select_product_type": "اختر نوع المنتج",
+    "select_product_image": "اختر صورة المنتج",
+    "select_color_image": "اختر صورة اللون",
+    "name_ar": "الاسم بالعربي مطلوب",
+    "name_en": "الاسم بالانجليزي مطلوب",
+    "price": "السعر بالانجليزي مطلوب",
+    "description_ar": "الوصف بالعربي مطلوب",
+    "description_en": "الوصف بالانجليزي مطلوب",
+    "logo": "اللوجو مطلوب",
+    "files": "الملفات مطلوبه",
+    "account_number": "رقم الحساب البنكي مطلوب",
+    "password": "كلمة المرور مطلوبه",
+    "password_confirmation": "يرجي تأكيد كلمة المرور",
+    "password_wrong": "كلمة المرور اقل من 6 خانات ",
+    "password_confirmation_wrong": "كلمة المرور غير مطابقه ",
+    "type_feedback": "نوع مقدم الخدمة مطلوب",
+    "service_feedback": "الخدمة مطلوبه",
+    "ProviderType": "اختر نوع مقدم الخدمة",
+    "services": "اختر الخدمة",
+    "image": "الصوره الشخصيه مطلوبه",
+    "description": "الوصف مطلوب",
+    "time": "الوقت مطلوب",
+    "date": "التاريخ مطلوب",
+    "images": "الصور مطلوبه",
+    "address": "العنوان مطلوب",
+    "select_messag_type": "يرجي تحديد موضوع الرسالة",
+    "emptyFilterMessage": "لا توجد نتائج",
+    "complaint": "تفاصيل الشكوي مطلوب",
+    "is_terms": "يرجي الموافقة علي الشروط والاحكام",
+    "subject": "عنوان الشكوى مطلوب",
+    "message": "الرسالة مطلوبه",
+    "old_password": "كلمة المرور الحالية مطلوبه",
+    "success_update": "تم التعديل بنجاح",
+    "confirm": "تاكيد",
+    "coupon_required": "الكوبون مطلوب",
+    "login_required": "يرجي تسجيل الدخول",
+    "select_location_required": "يرجي تحديد الموقع",
+    "banke_account_name": "اسم حساب البنك مطلوب",
+    "banke_account_number": "رقم حساب البنك مطلوب",
+    "iban": "رقم الايبان مطلوب",
+    "bank_name": "اسم البنك مطلوب",
+    "update_profile_success": "تم تحديث الملف الشخصي بنجاح",
+    "name_address": "اسم العنوان مطلوب"
+  },
+  "main":{
+    "req": "مطلوب",
+    "nodata": " لا يوجد بيانات حتى الان",
+    "sendMessageplaceholder" : "اكتب رسالتك هنا",
+    "phoneOrMail" : "البريد الإلكترونى أو رقم الجوال",
+    "reports" : "تقارير المناقشات",
+    "newReports" : "طلبات التسوية الجديدة",
+    "oldReports" : "طلبات التسوية المنتهية",
+    "reqestReport" : "طلب تسوية",
+    "doneSettlement" : "تم ارسال طلب التسوية بنجاح",
+    "followSettlement" : "متابعة طلبات التسوية",
+    "noAuctions" : "لا يوجد مزادات حنى الان",
+    "newSettlements" : "طلبات تسوية جديدة",
+    "finishedSettlements" : "طلبات تسوية منتهية",
+    "settleDetails" : "تفاصيل الطلب",
+    "settleImg" : "صورة الحوالة",
+    "refuseResson" : "سبب الرفض",
+    "bidDetails" : "تفاصيل المناقصه",
+    "chat" : "المحادثة",
+    "showChat" : "عرض المحادثة",
+    "currentAuction" : "المزادات الجارية",
+    "finishedAuction" : "المزادات المنتهية",
+    "cancelledAuction" : "المزادات الملغية",
+    "closedAuction" : "المزادات المغلقة",
+    "currentAuction2" : "مناقصة جاية",
+    "finishedAuction2" : "مناقصة منتهية",
+    "cancelledAuction2" : "مناقصة ملغية",
+    "closedAuction2" : "مناقصة مغلقة",
+    "deleteNotifications" : "حذف جميع الإشعارات",
+    "notifications" : "الإشعارات",
+    "noNotifications" : "لا يوجد اشعارات حتى الان",
+    "sureDeleteNots" : "هل أنت متأكد من حذف الإشعارات؟",
+    "agree" : "نعم إحذف",
+    "back" : "تراجع",
+    "aucEnd" : "باقى على إنتهاء المزاد",
+    "day" : "ي",
+    "hour" : "س",
+    "min" : "د",
+    "noOwnAuctions" : "لا يوجد لديك مزادات حتى الان",
+    "terms" : "تعليمات و إرشادات",
+    "addedDate" : "تاريخ الإضافة",
+    "permissionOptins" : "خصائص الصلاحية",
+    "termsBook" : "كراسة الشروط",
+    "commission" : "قيمة العمولة",
+    "acceptedOffer" : "العرض المقبول",
+    "currency" : "ر.س",
+    "notes" : "ملاحظات",
+    "attachments" : "مرفقات",
+    "offers" : "عروض الأسعار",
+    "aucIsCurrent" : "ما زالت المناقصة جارية",
+    "aucIsFinished" : "تهانينا! انتهت المناقصة",
+    "reviewAuc" : "يمكنك مراجعة عروض الاسعار بعد انتهاء مدة المزاد لاختيار العرض المناسب",
+    "showOffers" : "الكشف عن العروض",
+    "acceptOffer" : "قبول العرض",
+    "offersPin" : "رمز الكشف عن العروض",
+    "enterPin" : "فضلا ادخل الرمز المرسل اليك من قبل الادارة للكشف عن العروض",
+    "openOfferPin" : "رمز فتح العروض",
+    "confirm" : "تأكيد",
+    "enterCodePin" : "أدخل الرمز"
+  }
+}

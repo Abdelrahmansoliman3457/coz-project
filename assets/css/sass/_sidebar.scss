@@ -1,0 +1,308 @@
+/************ Start sideBar***************/
+.sidebar-menu {
+  width: 300px;
+  position: fixed;
+  top: 64px;
+  height: 100%;
+  @include dir-left(0);
+  transition: all 0.8s cubic-bezier(0.5, -0.7, 0.15, 1.55);
+  z-index: 9;
+  background-color: #f6f4f8;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 2px #baa3a3;
+  background: #fff;
+
+  .sidebar-logo {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+
+    .img-logo {
+      max-width: 195px;
+    }
+
+    .close-ic {
+      display: none;
+      position: absolute;
+      @include dir-right(5px);
+      top: 15px;
+      font-size: 20px !important;
+      color: $main;
+      cursor: pointer;
+      transition: 0.3s;
+
+      @media (max-width: 1024px) {
+        display: block;
+      }
+    }
+  }
+
+  .no-shrink {
+    flex-shrink: 0;
+  }
+
+  .sidebar-anchors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding-block: 30px !important;
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+    transition: all 0.8s cubic-bezier(0.5, -0.7, 0.15, 1.55);
+
+    &::-webkit-scrollbar {
+      width: 4px;
+      // height: 6px;
+      transition: 0.3s;
+
+      @media (max-width: $screen-md) {
+        height: 1px;
+      }
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $main;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: $main;
+    }
+
+    #{$ltr} & {
+      padding: 0 25px 0 25px;
+    }
+
+    #{$rtl} & {
+      padding: 0 25px 0 25px;
+    }
+
+    .item {
+      position: relative;
+
+      border-radius: 5px;
+      transition: 0.5s all ease-in-out;
+
+      .box-item {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+
+        .icon-container {
+          pointer-events: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 6px;
+          width: 35px;
+          height: 35px;
+          transition: all 0.5s ease;
+          border-radius: 5px;
+          // background-color: $third;
+          @include dir-margin-right(13px);
+          flex-shrink: 0;
+
+          .img-1 {
+            max-width: 22px;
+          }
+        }
+      }
+
+      i {
+        font-size: 14px !important;
+        color: #858585;
+        transition: 0.5s;
+        position: absolute;
+        top: 50%;
+        @include dir-right(75px);
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 7px;
+      }
+
+      .hint {
+        font-size: 15px;
+        color: #000;
+        transition: 0.5s;
+        width: 100%;
+        line-height: 32px;
+      }
+      &:has(> a.router-link-active){
+        position: relative;
+      } 
+      &:has(> a.router-link-active)::after{
+        content: "";
+        position: absolute;
+        top: 2px;
+        @include dir-left(-24px);
+        width: 7px;
+        background-color: $main;
+        height: 90%;
+        transition: all 0.5s ease;
+      }
+
+      &:has(> a.router-link-active) {
+        .hint {
+          color: $main !important;
+        }
+
+        i {
+          color: $main !important;
+        }
+
+        // .icon-container {
+        //   img {
+        //     filter: grayscale(100%) brightness(45%) sepia(65%) hue-rotate(315deg)
+        //     saturate(1000%) contrast(0.8);
+        //   }
+        //   // background-color: #fff;
+        //   // z-index: 999;
+        //   // pointer-events: none;
+        // }
+
+        // .hint {
+        //   #{$ltr} & {
+        //     transform: translateX(7px);
+        //   }
+
+        //   #{$rtl} & {
+        //     transform: translateX(-7px);
+        //   }
+
+        //   color: $main;
+        // }
+
+        i {
+          color: $main !important;
+        }
+
+        // &::before {
+        //   transform: none !important;
+        // }
+      }
+
+      // &.active {
+      //   .hint {
+      //     color: $main !important;
+      //   }
+      //   i {
+      //     color: $main !important;
+      //   }
+      //   .icon-container{
+      //     background-color: #fff;
+      //     z-index: 999;
+      //   }
+      // }
+      // &::before {
+      //   content: "";
+      //   @include dir-right(0);
+      //   top: 0;
+      //   width: 100%;
+      //   pointer-events: none;
+      //   height: 100%;
+      //   background: $third;
+      //   opacity: 0.5;
+      //   position: absolute;
+      //   transition: 0.5s;
+
+      //   #{$ltr} & {
+      //     transform: translateX(-100%);
+      //   }
+
+      //   #{$rtl} & {
+      //     transform: translateX(100%);
+      //   }
+      // }
+
+      &:hover,
+      &.active {
+        .hint {
+          #{$ltr} & {
+            transform: translateX(8px);
+          }
+
+          #{$rtl} & {
+            transform: translateX(-8px);
+          }
+
+          color: $main;
+        }
+
+        i {
+          color: $main !important;
+        }
+
+        &::before {
+          transform: none !important;
+        }
+      }
+    }
+
+    @media (max-width: $screen-xs) {
+      padding: 0 15px !important;
+    }
+  }
+
+  &.active {
+    #{$ltr} & {
+      transform: translateX(-100%);
+    }
+
+    #{$rtl} & {
+      transform: translateX(100%);
+    }
+
+    @media (max-width: 1024px) {
+      #{$ltr} & {
+        transform: none;
+      }
+
+      #{$rtl} & {
+        transform: none;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    #{$ltr} & {
+      transform: translate(-100%);
+    }
+
+    #{$rtl} & {
+      transform: translate(100%);
+    }
+  }
+
+  @media (max-width: $screen-xs) {
+    width: 250px;
+  }
+}
+.add-main {
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  color: $white !important;
+}
+.abs-add{
+  border-radius: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/************ End sideBar***************/
